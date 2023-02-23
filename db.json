@@ -1,0 +1,104 @@
+{
+  "Task": [
+    {
+      "id": 1,
+      "Task_name": "json-server"
+    },
+    {
+      "Task_name": "asfsdsf",
+      "id": 2
+    },
+    {
+      "Task_name": "klh;aklsh;lksa",
+      "id": 3
+    },
+    {
+      "Task_name": "",
+      "id": 4
+    },
+    {
+      "Task_name": "sdfsdf",
+      "id": 5
+    },
+    {
+      "Task_name": "asasd",
+      "id": 6
+    },
+    {
+      "Task_name": "sfsdf",
+      "id": 7
+    },
+    {
+      "Task_name": "afasd",
+      "id": 8
+    },
+    {
+      "Task_name": "fdsf",
+      "id": 9
+    },
+    {
+      "Task_name": "sfsdf",
+      "id": 10
+    },
+    {
+      "Task_name": "hgvhbn",
+      "id": 11
+    },
+    {
+      "Task_name": "hjkmui",
+      "id": 12
+    },
+    {
+      "Task_name": "hmgkh",
+      "id": 13
+    },
+    {
+      "Task_name": "kjhkj",
+      "id": 14
+    },
+    {
+      "Task_name": "wjhsakj",
+      "id": 15
+    },
+    {
+      "Task_name": "go to gym",
+      "id": 16
+    },
+    {
+      "Task_name": " go for a walk\n",
+      "id": 17
+    },
+    {
+      "Task_name": "go for shoping",
+      "id": 18
+    },
+    {
+      "Task_name": "read a book",
+      "id": 19
+    }
+  ],
+  "Subtask": [
+    {
+      "Project_id": 1,
+      "subtask": [
+        {
+          "subtask_id": 1,
+          "subtask_name": "task 1",
+          "user_id": [
+            "mangal",
+            "sangapal"
+          ]
+        }
+      ]
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "user": [
+    {
+      "username": "mangal",
+      "password": "mangal sing"
+    }
+  ]
+}

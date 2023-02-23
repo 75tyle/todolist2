@@ -5,22 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>todolist</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  
     <link rel="stylesheet" href="todolist.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,800;1,400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,400&display=swap" rel="stylesheet">
-    <script
-  src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
-  <script src="todolist.js"></script>
+    <script src="./todolist.js"></script>
+    
+  
 </head>
 <body>
+    
     <div class="container-fluid todo_container">
         <div class="title d-flex justify-content-center">todolist</div>
         <div class="row d-flex justify-content-around p-4" style="height: 35%;">
            
             <div class=" col-4 main_input d-flex justify-content-center align-items-center p-0">
-                <div class="inputtask"><textarea style="resize: none;" placeholder="ENTER YOUR TASK"></textarea></div>
+                <div class="inputtask">
+               
+                    <textarea class="taskname" value="" style="resize: none;" placeholder="ENTER YOUR TASK"></textarea></div>
                 <div class="bton position-absolute "><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM232 344V280H168c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V168c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H280v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"/></svg></div>
             </div>
 
@@ -32,9 +32,17 @@
         
         <div class="row d-flex justify-content-around p-4" style="height: 40%;">
             
-            <div class=" col-3 h-100 task_box justify-content-center align-items-center">
+            <div class=" col-3 h-100 task_box justify-content-center align-items-center ">
                 <div class="box_title"><span>tasks</span></div>
-                <div class="task"></div>
+                <div class="overflow_wrapper ">
+                    <div class="over_flow">
+                        <div class="task p-4">
+
+                        </div>
+                    </div>
+                 
+                </div>
+                
             </div>
             <div class=" col-3 h-100 progress_box  d-flex justify-content-center align-items-center">
                 <div class="box_title"><span>progress</span></div>
@@ -50,6 +58,6 @@
        
         
     </div>
-   
+
 </body>
 </html>
