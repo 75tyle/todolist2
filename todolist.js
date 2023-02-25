@@ -36,11 +36,14 @@ function Getdata() {
         console.log(data)
         var html = '';
         var datalength = data.length
+        
         for(var i = 0; i<data.length; i++){
            console.log(data[i].Task_name)
-           html+='<div class="row list_style">'+data[i].Task_name+'</div>'
+           html+='<div class="row list_style" onclick=gototask('+data[i].id+')>'+data[i].Task_name+'</div>'
            
         }
+
+       
         $('.task').html(html);
           
      
@@ -48,3 +51,16 @@ function Getdata() {
 
     });
 };
+
+function gototask(id){
+       
+        var obj ={
+            id:id,
+        }
+        
+        var new_url = '/todolisttaask.html?' + jQuery.param(obj)
+
+        window.location.href=new_url
+
+
+}
